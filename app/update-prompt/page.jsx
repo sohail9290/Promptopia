@@ -1,17 +1,17 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useSession } from "@node_modules/next-auth/react";
-
+import { useSession } from "next-auth/react";
 import Form from "@components/Form";
 
-const EditPrompt = () => {
+// This is the child component that uses useSearchParams()
+function EditPromptContent() {
     const router = useRouter();
     const searchParams = useSearchParams();
     const promptId = searchParams.get("id");
 
-    const [post, setPost] = useState({ prompt: "", tag: "", });
+    const [post, setPost] = useState({ prompt: "", tag: "" });
     const [submitting, setIsSubmitting] = useState(false);
 
     useEffect(() => {
@@ -55,13 +55,20 @@ const EditPrompt = () => {
 
     return (
         <Form
-            type='Edit'
+            type="Edit"
             post={post}
             setPost={setPost}
             submitting={submitting}
             handleSubmit={updatePrompt}
         />
     );
-};
+}
 
-export default EditPrompt;
+// This is the default export that wraps the child in a Suspense boundary.
+export default function EditPrompt() {
+    return (
+        <Suspense fallback={<div>Loading...</div>}>
+            <EditPromptContent />
+        </Suspense>
+    );
+}
