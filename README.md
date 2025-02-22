@@ -72,7 +72,7 @@ Through this project, I gained experience in:
 ---
 
 ## 🌍 Live Demo
-🚀 **Check out the live version here** → [Promptopia on Vercel](https://promptopia-sohail.vercel.app)
+🚀 **Check out the live version here** → [Promptopia on Vercel](https://promptopia-weld-ten.vercel.app/)
 
 ---
 
