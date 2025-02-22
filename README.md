@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-    <a href="www.linkedin.com/in/sohail-khan-pattan-713173190" target="_blank">
+    <a href="https://www.linkedin.com/in/sohail-khan-pattan-713173190" target="_blank">
       <img src="https://github.com/sohail9290/Promptopia/blob/main/public/assets/images/promptopia-logo.svg" alt="Project Banner">
     </a>
   <br />
@@ -12,8 +12,6 @@
   </div>
 
   <h3 align="center">Next.js 14 AI Prompt Sharing Application</h3>
-
-   
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
