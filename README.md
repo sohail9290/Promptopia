@@ -14,14 +14,19 @@
   <h3 align="center">Next.js 14 AI Prompt Sharing Application</h3>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+---
+
+## 📋 Table of Contents
 
 1. [Overview](#-overview)
 2. [Features](#-features)
 3. [Tech Stack](#️-tech-stack)
 4. [My Contributions](#-my-contributions)
 5. [Lessons Learned](#-lessons-learned)
+6. [Live Demo](#-live-demo)
+7. [Connect with Me](#-connect-with-me)
 
+---
 
 # 🧠 Promptopia – AI-Powered Prompt Sharing Platform
 
@@ -64,3 +69,15 @@ Through this project, I gained experience in:
 - 🔍 **State management using React hooks**.
 - 🔍 **Deploying a Next.js app on Vercel** for production.
 
+---
+
+## 🌍 Live Demo
+🚀 **Check out the live version here** → [Promptopia on Vercel](https://promptopia-sohail.vercel.app)
+
+---
+
+## 🤝 Connect with Me
+If you're interested in collaborating or have any questions, feel free to reach out!
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sohail-khan-pattan-713173190)
+[![GitHub](https://img.shields.io/badge/-GitHub-gray?style=for-the-badge&logo=github)](https://github.com/sohail9290)
