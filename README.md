@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="https://youtu.be/wm5gMKuwSYk?feature=shared" target="_blank">
-      <img src="https://github.com/sohail9290/Promptopia/blob/main/public/assets/images/logo.svg" alt="Project Banner">
+      <img src="https://github.com/sohail9290/Promptopia/blob/main/public/assets/images/promptopia-logo.svg" alt="Project Banner">
     </a>
   <br />
 
